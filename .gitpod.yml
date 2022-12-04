@@ -3,11 +3,11 @@ image:
 
 tasks:
   - init: |
-          npm install -g npm
-          npm install
+      npm install -g npm
+      npm install
   - command: |
-             echo 'Start first askui automation'
-             npm run askui-automation
+      echo 'Start first askui automation'
+      npm run askui-automation
 ports:
   - port: 6080
     onOpen: open-preview
