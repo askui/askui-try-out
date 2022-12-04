@@ -2,5 +2,12 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm install
-    command: echo 'Ran npm install'
+  - init: |
+          npm install -g npm
+          npm install
+  - command: |
+             echo 'Start first askui automation'
+             npm run askui-automation
+ports:
+  - port: 6080
+    onOpen: open-preview

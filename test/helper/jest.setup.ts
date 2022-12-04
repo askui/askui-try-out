@@ -22,8 +22,8 @@ beforeAll(async () => {
 
   aui = await UiControlClient.build({
     credentials: {
-      workspaceId: 'd928f70b-7ff0-4cea-b9f6-c6522a2eb492',
-      token: 'NyR8IoBEUZaS6PUhSSLy',
+      workspaceId: '<your workspace id>',
+      token: '<your access token>',
     },
   });
 
