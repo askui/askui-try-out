@@ -2,6 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - init:
+      gp open README.md
   - init: |
       npm install -g npm
       npm install
@@ -9,6 +11,7 @@ tasks:
       sed -i "s/<your access token>/$accesstoken/g" test/helper/jest.setup.ts
       echo 'Start first askui automation'
       npm run askui-automation
+  
       
 ports:
   - port: 6080
