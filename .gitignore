@@ -1,5 +1,3 @@
-test/helper/jest.setup.ts
-
 # Logs
 logs
 *.log
