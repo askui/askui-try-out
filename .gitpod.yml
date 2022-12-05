@@ -2,5 +2,14 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm install
-    command: echo 'Ran npm install'
+  - init: |
+      npm install -g npm
+      npm install
+      sed -i "s/<your workspace id>/$workspaceid/g" test/helper/jest.setup.ts
+      sed -i "s/<your access token>/$accesstoken/g" test/helper/jest.setup.ts
+      echo 'Start first askui automation'
+      npm run askui-automation
+      
+ports:
+  - port: 6080
+    onOpen: open-preview
