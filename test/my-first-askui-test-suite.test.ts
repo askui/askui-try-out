@@ -6,8 +6,13 @@ describe('jest with askui', () => {
     // Run this to see what askui annotates
     await aui.annotateInteractively();
 
+    // Move the mouse to the middle of the screen
     await aui.moveMouse(500, 500).exec();
+
+    // Search for the text 'Applications' and click on it
     await aui.click().text().withText('Applications').exec();
+
+    // Navigate to Google Chrome in the menu
     await aui.click().text().withText('Internet').exec();
     await aui.click().text().withText('Google Chrome').exec();
 
