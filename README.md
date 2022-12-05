@@ -7,3 +7,8 @@ Gitpod ready repository to try out askui
     alt="Contribute with Gitpod"
   />
 </a>
+
+## Known Issues with Gitpod
+
+### The UiController does not start
+Restart the Gitpod-Workspace.
