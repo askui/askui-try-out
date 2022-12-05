@@ -1,7 +1,13 @@
 # askui-try-out
-Gitpod ready repository to try out askui
+Hello and welcome to our demo of askui on Gitpod. We will do the following things here:
 
-<a href="https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out">
+1. Explain the moving parts in this workspace
+2. Let the first askui automation run
+3. Show you where to go from there
+
+## Open in Gitpod
+
+<a href="https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out" target="_blank">
   <img
     src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
     alt="Contribute with Gitpod"
