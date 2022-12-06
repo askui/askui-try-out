@@ -1,14 +1,23 @@
 # askui-try-out
-Hello and welcome to our demo of askui on Gitpod. We will do the following things here:
+Welcome to our demo of askui on Gitpod. We will do the following things here:
 
 1. Explain the moving parts in this workspace
 2. Open the GUI of the workspace
 3. Observe first askui automation run
 4. Show you where to go from there
 
+When you are ready open this repository in Gitpod with this button:
+
+<a href="https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out" target="_blank" >
+  <img
+    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
+    alt="Contribute with Gitpod"
+  />
+</a>
+
 ## Moving Parts of This Workspace
 
-First, we will tidy up your workspace now as the Visual Studio Code Editor in your browser is cluttered:
+First, we will tidy up your workspace as the Visual Studio Code Editor in your browser is cluttered:
 
 * Hide Sidebar: press `CTRL + b` (`COMMAND + b` on macOS)
 * Remove _Get Started_ tab: Left click on the _x_ beneath the tab
@@ -21,7 +30,7 @@ Your browser window should look like this afterward:
 
 On startup of this workspace, askui gets installed in the background and the first automation already started!
 
-Click on the tab _Simple Browser_ to see this workspace's GUI (Linux Desktop). What you are seeing is like a real GUI from a physical device, but in the cloud. If you see red boxes like the one in the next picture around elements, it means the automation is ready to run:
+Click on the tab _Simple Browser_ to see this workspace's GUI (Linux Desktop). What you see is like a real GUI from a physical device, but in the cloud. If you see red boxes like the one in the next picture around elements, it means the automation is ready to run:
 
 ![Red Box around the mouse on the desktop](img/red_boxes.png)
 
@@ -29,16 +38,16 @@ You can also resize the tab to have a better viewing experience.
 
 ## Observe First askui Automation Run
 
-Click on the workspace to get the focus. Then press `ESC` on your keyboard and how askui moves the mouse, open Google Chrome and navigating to a webpage by typing in the URL and pressing `ENTER` on you keyboard.
+Click on the workspace to get the focus. Then press `ESC` on your keyboard and how askui moves the mouse, opens Google Chrome, and navigates to a webpage by typing in the URL and pressing `ENTER` on your keyboard.
 
-> askui automates your Operating System as a real human would! With real mouse-movement, keystrokes and visual selection of elements.
+> askui automates your Operating System as a real human would! With real mouse movement, keystrokes, and visual selection of elements.
 
 If you want to know how the code looks to achieve this, click on the tab _my-first-askui-test-suite.test.ts_ to see the code with comments for each command.
 
 ## Where To Go Now
 You have now seen what simple automation in a remote cloud environment can do.
 
-Head over to our [User Portal](http://app.v2.askui.com/) to register (and later use) askui for free on your local machine.
+Head over to our [User Portal](http://app.v2.askui.com/) to register (and use) askui for free on your local machine.
 
 For local installation follow the _Onboarding Guide_ there or head over to [our docs Getting Started](https://docs.askui.com/docs/general/Getting%20Started/getting-started).
 
@@ -50,16 +59,10 @@ If you need more inspiration we have the following resources for you:
 
 And our [Discord-Community](https://discord.gg/KFYJ5xuyBA) to answer any questions.
 
-## Open in Gitpod
-
-<a href="https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out" target="_blank" >
-  <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-    alt="Contribute with Gitpod"
-  />
-</a>
-
 ## Known Issues with Gitpod
+
+## Simple Browser Window does not react to Keystrokes/Clicks
+Restart the Gitpod-Workspace.
 
 ### After Automation Execution you get a Jest Warning
 Sometimes you get the following error message after running the automation:
