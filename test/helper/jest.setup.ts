@@ -16,6 +16,7 @@ beforeAll(async () => {
      * ignore if you have only one display
      */
     display: 0,
+    actionDelayInMs: 100,
   });
 
   await uiController.start();
