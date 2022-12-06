@@ -2,8 +2,6 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: Open readme
-    command: gp open README.md
   - init: |
       npm install -g npm
       npm install
