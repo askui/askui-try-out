@@ -1,9 +1,9 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out)
 
 # askui-try-out
-Welcome to our demo of askui on Gitpod. We will do the following things here:
+Welcome to our demo of askui on Gitpod. We will do the following things:
 
-1. Explain the moving parts in this workspace
+1. Explain the moving parts
 2. Open the GUI of the workspace
 3. Observe first askui automation run
 4. Show you where to go from there
