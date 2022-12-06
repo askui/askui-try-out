@@ -8,7 +8,7 @@ Hello and welcome to our demo of askui on Gitpod. We will do the following thing
 
 ## Moving Parts of This Workspace
 
-We will tidy up your workspace now as the Visual Studio Code Editor in your browser is cluttered:
+First, we will tidy up your workspace now as the Visual Studio Code Editor in your browser is cluttered:
 
 * Hide Sidebar: press `CTRL + b` (`COMMAND + b` on macOS)
 * Remove _Get Started_ tab: Left click on the _x_ beneath the tab
@@ -25,7 +25,7 @@ Click on the tab _Simple Browser_ to see this workspace's GUI (Linux Desktop). W
 
 ![Red Box around the mouse on the desktop](img/red_boxes.png)
 
-You can also resize the tab to be bigger.
+You can also resize the tab to have a better viewing experience.
 
 ## Observe First askui Automation Run
 
