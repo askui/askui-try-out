@@ -30,8 +30,8 @@ describe('jest with askui', () => {
     try {
       await aui.expect().button().button().contains().text().withText('Get Started').exists();
       await aui.click().button().contains().text().withText('Get Started').exec();
-      await aui.click().text().withText('Skip').exec();
-      await aui.click().text().withText('Skip').exec();
+      await aui.click().text().withText('Next').exec();
+      await aui.click().text().withText('Next').exec();
       await aui.click().text().withText('thanks').exec();
     } catch(error) {
       // We do not have to do anything
