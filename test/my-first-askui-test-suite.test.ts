@@ -26,6 +26,18 @@ describe('jest with askui', () => {
       console.log('No keyring popup found!');
     }
     
+    // Sometimes a 'Make Chrome your own' popup shows up
+    try {
+      await aui.expect().button().button().contains().text().withText('Get Started').exists();
+      await aui.click().button().contains().text().withText('Get Started').exec();
+      await aui.click().text().withText('Skip').exec();
+      await aui.click().text().withText('Skip').exec();
+      await aui.click().text().withText('thanks').exec();
+    } catch(error) {
+      // We do not have to do anything
+      console.log('No Make Chrome your own popup found!');
+    }
+
     // Click on text with regex 'Search*'
     await aui.click().text().withTextRegex('Search*').exec();
     
