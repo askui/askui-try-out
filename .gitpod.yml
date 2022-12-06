@@ -2,6 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - name: Open readme
+    command: gp await port 23000 1>/dev/null && gp open README.md
   - init: |
       npm install -g npm
       npm install
