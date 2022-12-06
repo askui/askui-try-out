@@ -64,13 +64,18 @@ And our [Discord-Community](https://discord.gg/KFYJ5xuyBA) to answer any questio
 * Then open the link in your browser
 * Your `workspace id` and your `access token
 
-> **DISCLAIMER: Do not publish the link publicly as it contains your credentials unencrypted!**
+> **DISCLAIMER: Do not publish the link publicly as it contains your unencrypted unencrypted!**
 
-https://gitpod.io/#workspaceid=<your workspace id>,accesstoken=<your access token>/https://github.com/JohannesDienst-askui/askui-try-out
+`https://gitpod.io/#workspaceid=<your workspace id>,accesstoken=<your access token>/https://github.com/JohannesDienst-askui/askui-try-out`
 
 ## Known Issues with Gitpod
 
-## Simple Browser Tab/Window does not react to keystrokes/mouse clicks
+## I Closed the Simple Browser Window / It is not visible
+Go to the ports tab and reopen it as preview or in a separate browser window
+
+![Gif showing switch to ports tab and open preview.](img/reopen-simple-browser.gif)
+
+## Simple Browser Tab/Window does not react to Keystrokes/Clicks
 Restart the Gitpod-Workspace.
 
 ### After Automation Execution you get a Jest Warning
