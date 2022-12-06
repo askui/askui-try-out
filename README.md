@@ -1,3 +1,5 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out)
+
 # askui-try-out
 Welcome to our demo of askui on Gitpod. We will do the following things here:
 
@@ -8,12 +10,7 @@ Welcome to our demo of askui on Gitpod. We will do the following things here:
 
 When you are ready open this repository in Gitpod with this button:
 
-<a href="https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out" target="_blank" >
-  <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-    alt="Contribute with Gitpod"
-  />
-</a>
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JohannesDienst-askui/askui-try-out)
 
 ## Moving Parts of This Workspace
 
