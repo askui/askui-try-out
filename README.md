@@ -35,7 +35,9 @@ You can also resize the tab to have a better viewing experience.
 
 ## Observe First askui Automation Run
 
-Click on the workspace to get the focus. Then press `ESC` on your keyboard and how askui moves the mouse, opens Google Chrome, and navigates to a webpage by typing in the URL and pressing `ENTER` on your keyboard.
+Click in the _Simple Browser_ tab to get the focus into the GUI. Then press `ESC` on your keyboard and observe that askui moves the mouse, opens Google Chrome, and navigates to a webpage by typing in the URL and pressing `ENTER` on your keyboard. In between there should be same popups that get clicked away 😉
+
+For better understanding:
 
 > askui automates your Operating System as a real human would! With real mouse movement, keystrokes, and visual selection of elements.
 
@@ -56,17 +58,29 @@ If you need more inspiration we have the following resources for you:
 
 And our [Discord-Community](https://discord.gg/KFYJ5xuyBA) to answer any questions.
 
+## How to Start with a workspace id and access token?
+
+* Replace `<your workspace id>` and `<your access token>` with your `workspace id` and your `access token` in the link below.
+* Then open the link in your browser
+* Your `workspace id` and your `access token
+
+> **DISCLAIMER: Do not publish the link publicly as it contains your credentials unencrypted!**
+
+https://gitpod.io/#workspaceid=<your workspace id>,accesstoken=<your access token>/https://github.com/JohannesDienst-askui/askui-try-out
+
 ## Known Issues with Gitpod
 
-## Simple Browser Window does not react to Keystrokes/Clicks
+## Simple Browser Tab/Window does not react to keystrokes/mouse clicks
 Restart the Gitpod-Workspace.
 
 ### After Automation Execution you get a Jest Warning
 Sometimes you get the following error message after running the automation:
 
-> Jest did not exit one second after the test run has completed. 
+```bash
+Jest did not exit one second after the test run has completed. 
 
-> This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
+This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
+```
 
 This is because of the cloud development environment you are in. Focus the terminal and terminate the running process by pressing `CTRL+c`.
 
