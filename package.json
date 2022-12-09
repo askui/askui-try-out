@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "askui-automation": "jest test/my-first-askui-test-suite.test.ts --config ./test/jest.config.ts"
+      "askui-automation": "jest test/my-first-askui-test-suite.test.ts --config ./test/jest.config.ts --forceExit"
     },
     "author": "Johannes Dienst",
     "license": "MIT",
