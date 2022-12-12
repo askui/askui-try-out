@@ -1,4 +1,4 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/askui/askui-try-out)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#workspaceid=d928f70b-7ff0-4cea-b9f6-c6522a2eb492,accesstoken=i5O7xy5jIzNAmMci6c8M/https://github.com/askui/askui-try-out)
 
 # askui-try-out
 Welcome to our demo of askui on Gitpod. We will do the following things:
@@ -10,7 +10,7 @@ Welcome to our demo of askui on Gitpod. We will do the following things:
 
 When you are ready open this repository in Gitpod with this button:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/askui/askui-try-out)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#workspaceid=d928f70b-7ff0-4cea-b9f6-c6522a2eb492,accesstoken=i5O7xy5jIzNAmMci6c8M/https://github.com/askui/askui-try-out)
 
 ## Moving Parts of This Workspace
 
@@ -66,7 +66,7 @@ And our [Discord-Community](https://discord.gg/KFYJ5xuyBA) to answer any questio
 
 > **DISCLAIMER: Do not publish the link publicly as it contains your unencrypted credentials!**
 
-`https://gitpod.io/#workspaceid=<your workspace id>,accesstoken=<your access token>/https://github.com/JohannesDienst-askui/askui-try-out`
+`https://gitpod.io/#workspaceid=<your workspace id>,accesstoken=<your access token>/https://github.com/askui/askui-try-out`
 
 ## Known Issues with Gitpod
 
