@@ -12,5 +12,6 @@ RUN sudo apt-get update \
    libdrm2 \
    libgtk-3-0 \
    libgbm1 \
+   gnome-calculator\
  && sudo rm -rf /var/lib/apt/lists/*
  
