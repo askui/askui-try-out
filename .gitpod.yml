@@ -3,7 +3,6 @@ image:
 
 tasks:
   - init: |
-      sudo sed -i '1s/^/export LANGUAGE=en_US \n/' /opt/google/chrome/google-chrome
       npm install -g npm
       npm install -g npm@9.2.0
       npm install
