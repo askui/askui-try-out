@@ -52,7 +52,7 @@ describe('jest with askui', () => {
 
     // Reject popup if shown
     try {
-      await aui.click().button().contains().text().withTextRegex('Alles*').exec();
+      await aui.click().button().contains().text().withTextRegex('All*').exec();
     } catch (error: any) {
       // We do not have to do anything
       console.log('No popup button found!');
