@@ -13,5 +13,6 @@ RUN sudo apt-get update \
    libgtk-3-0 \
    libgbm1 \
    gnome-calculator\
+   geany\
  && sudo rm -rf /var/lib/apt/lists/*
  
