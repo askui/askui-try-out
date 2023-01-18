@@ -10,7 +10,7 @@
     "license": "MIT",
     "devDependencies": {
       "@types/jest": "29.0.3",
-      "askui": "0.6.0",
+      "askui": "0.6.1",
       "jest": "29.0.3",
       "jest-html-reporter": "3.7.0",
       "ts-jest": "29.0.2",
