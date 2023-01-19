@@ -2,12 +2,6 @@ import { aui } from './helper/jest.setup';
 
 describe('jest with askui', () => {
 
-  xit('should click on text', async () => {
-    // await aui.pressTwoKeys('control', 'u').exec();
-    // await aui.pressTwoKeys('control', 'i').exec();
-    // await aui.pressKey('+').exec();
-  });
-
   it('should let James say hello to the user', async () => {
 
     // Open the text editor Geany
@@ -39,6 +33,7 @@ describe('jest with askui', () => {
     await aui.pressKey('enter').exec();
     await aui.pressKey('enter').exec();
     await aui.type("Every bounding box is an element I recognized on your screen.").exec();
+    await aui.pressKey('enter').exec();
     await aui.type("I call it an annotation :-)").exec();
 
     await aui.pressKey('enter').exec();
@@ -47,6 +42,7 @@ describe('jest with askui', () => {
     await aui.pressKey('enter').exec();
     await aui.type("to see what type of element I recognized.").exec();
 
+    await aui.pressKey('enter').exec();
     await aui.pressKey('enter').exec();
     await aui.type("To stop the interactive annotation click left with your mouse").exec();
     await aui.pressKey('enter').exec();
