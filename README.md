@@ -62,7 +62,7 @@ And our [Discord-Community](https://discord.gg/KFYJ5xuyBA) to answer any questio
 
 * Replace `<your workspace id>` and `<your access token>` with your `workspace id` and your `access token` in the link below.
 * Then open the link in your browser
-* Your `workspace id` and your `access token
+* Your `workspace id` and your `access token`
 
 > **DISCLAIMER: Do not publish the link publicly as it contains your unencrypted credentials!**
 
