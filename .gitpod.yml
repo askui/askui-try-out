@@ -4,7 +4,7 @@ image:
 tasks:
   - init: |
       npm install -g npm
-      npm install -g npm@9.2.0
+      npm install -g npm@9.3.1
       npm install
       sed -i "s/<your workspace id>/$workspaceid/g" test/helper/jest.setup.ts
       sed -i "s/<your access token>/$accesstoken/g" test/helper/jest.setup.ts
