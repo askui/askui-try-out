@@ -1,4 +1,4 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#workspaceid=d928f70b-7ff0-4cea-b9f6-c6522a2eb492,accesstoken=c9jb_GAx8czYP8GfOUN4/https://github.com/askui/askui-try-out)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#workspaceid=d928f70b-7ff0-4cea-b9f6-c6522a2eb492,accesstoken=F-mBwv7ykeSgZjCwpNjv/https://github.com/askui/askui-try-out)
 
 # askui-try-out
 Welcome to our demo of askui on Gitpod. We will do the following things:
@@ -10,7 +10,7 @@ Welcome to our demo of askui on Gitpod. We will do the following things:
 
 When you are ready open this repository in Gitpod with this button:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#workspaceid=d928f70b-7ff0-4cea-b9f6-c6522a2eb492,accesstoken=c9jb_GAx8czYP8GfOUN4/https://github.com/askui/askui-try-out)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#workspaceid=d928f70b-7ff0-4cea-b9f6-c6522a2eb492,accesstoken=F-mBwv7ykeSgZjCwpNjv/https://github.com/askui/askui-try-out)
 
 ## Moving Parts of This Workspace
 
