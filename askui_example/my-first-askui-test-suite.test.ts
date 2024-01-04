@@ -1,4 +1,4 @@
-import { aui } from './helper/jest.setup';
+import { aui } from './helpers/askui-helper';
 
 describe('jest with askui', () => {
 

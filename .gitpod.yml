@@ -10,12 +10,12 @@ tasks:
       sed -i "s/<your workspace id>/$workspaceid/g" test/helper/jest.setup.ts
       sed -i "s/<your access token>/$accesstoken/g" test/helper/jest.setup.ts
     command: |
-      gp open test/my-first-askui-test-suite.test.ts
+      gp open askui_example/my-first-askui-test-suite.test.ts
       gp open README.md
       echo '**********************************'
-      echo '** Start first askui automation **'
+      echo '** Start first AskUI automation **'
       echo '**********************************'
-      npm run askui-automation
+      npm run askui
   
       
 ports:
