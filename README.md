@@ -33,22 +33,22 @@ Click on the tab _Simple Browser_ to see this workspace's GUI (Linux Desktop). W
 
 You can also resize the tab to have a better viewing experience.
 
-## Observe First askui Automation Run
+## Observe First AskUI Automation Run
 
 Click in the _Simple Browser_ tab to get the focus into the GUI. Then press `ESC` on your keyboard and observe that askui moves the mouse, opens Google Chrome, and navigates to a webpage by typing in the URL and pressing `ENTER` on your keyboard. In between there should be same popups that get clicked away 😉
 
 For better understanding:
 
-> askui automates your Operating System as a real human would! With real mouse movement, keystrokes, and visual selection of elements.
+> AskUI automates your Operating System as a real human would! With real mouse movement, keystrokes, and visual selection of elements.
 
 If you want to know how the code looks to achieve this, click on the tab _my-first-askui-test-suite.test.ts_ to see the code with comments for each command.
 
 ## Where To Go Now
 You have now seen what simple automation in a remote cloud environment can do.
 
-Head over to our [User Portal](http://app.v2.askui.com/) to register (and use) askui for free on your local machine.
+Head over to our [User Portal](http://app.askui.com/) to register (and use) AskUI for free on your local machine.
 
-For local installation follow the _Onboarding Guide_ there or head over to [our docs Getting Started](https://docs.askui.com/docs/general/Getting%20Started/getting-started).
+For local installation follow the _Onboarding Guide_ there or head over to our docs Getting Started: [Windows](https://docs.askui.com/docs/general/Getting%20Started/Installing%20AskUI/getting-started), [Linux](https://docs.askui.com/docs/general/Getting%20Started/Installing%20AskUI/getting-started-linux), [macOS](https://docs.askui.com/docs/general/Getting%20Started/Installing%20AskUI/getting-started-macos).
 
 If you need more inspiration we have the following resources for you:
 
@@ -56,7 +56,7 @@ If you need more inspiration we have the following resources for you:
 * [Flutter Example Repository](https://github.com/askui/flutter-example-automation)
 * [Example Automations on Github](https://github.com/askui/askui-examples)
 
-And our [Discord-Community](https://discord.gg/KFYJ5xuyBA) to answer any questions.
+And our [Outverse-Community](https://app.outverse.com/askui/community/home) to answer any questions.
 
 ## How to Start with a workspace id and access token?
 
