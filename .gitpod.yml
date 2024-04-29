@@ -3,7 +3,7 @@ image:
 
 tasks:
   - init: |
-      npm install -g npm@10.2.3
+      npm install -g npm@latest
       nvm install --lts
       nvm use --lts
       npm install
@@ -16,8 +16,7 @@ tasks:
       echo '** Start first AskUI automation **'
       echo '**********************************'
       npm run askui
-  
-      
+
 ports:
   - port: 6080
     onOpen: open-preview
